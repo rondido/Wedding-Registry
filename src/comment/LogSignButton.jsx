@@ -1,6 +1,6 @@
 import React from 'react'
-import { GoogleLogin,GoogleOAuthProvider } from '@react-oauth/google'
-
+import {GoogleLogin, GoogleOAuthProvider} from '@react-oauth/google'
+import {Link} from "react-router-dom";
 
 
 export default function LoginButton() {
@@ -36,11 +36,9 @@ export default function LoginButton() {
             kakao
           </button>
         </div>
-        <div>
-          <button className='signUpButton'>
+          <Link to="/signup" className='signUpButton'>
               회원가입
-          </button>
-        </div>
+          </Link>
     </div>
   )
 }
