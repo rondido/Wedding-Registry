@@ -1,16 +1,5 @@
-$inputWidth:300px;
-$buttonWidth:206px;
-$height:32px;
-$interval:15px;
+@import "./base.scss";
 
-body{
-    background-image: url(/image/wedding.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Noto Sans Korean';    
-}
 .container{
     display: flex;
     justify-content: center;
@@ -25,7 +14,12 @@ body{
     padding: 3rem;
     border-radius: 1rem;    
     margin-top: 100px;
-    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
     .IdInput{
         width: $inputWidth;
         height: $height;
@@ -34,6 +28,7 @@ body{
         margin-bottom: $interval;
         
     }
+
     .PassInput{
         width: $inputWidth;
         height: $height;
@@ -41,6 +36,7 @@ body{
         border:none;        
         margin-bottom: $interval;
     }
+
     .Loginbutton{
         width: $buttonWidth;
         height: $height;
@@ -60,11 +56,25 @@ body{
         
     }
     .signUpButton{
-        width: 206px;
+        width: $buttonWidth;
         height: $height;
         border-radius: $interval;
         background-color: D9D9D9;
         border: none;
         margin-bottom: $interval; 
+    }
+    .kakaoDiv{
+        width: $buttonWidth;
+        height: 30px;
+        font-size: 20px;
+        background-color: yellow;
+        border: none;
+        margin-top: $interval; 
+        border-radius: 5px;
+        .kakao{
+            text-decoration: none;
+            color: black;
+            margin-top: $interval;
+        }
     }
 }
