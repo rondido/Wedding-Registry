@@ -1,0 +1,42 @@
+$inputWidth:300px;
+$buttonWidth:206px;
+$height:32px;
+$interval:15px;
+
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 100px;
+}
+
+input {
+  width: $inputWidth;
+  height: $height;
+  border-radius: $interval;
+  border:none;
+  margin-bottom: $interval;
+
+  padding-left: 30px;
+}
+
+.signupButton {
+  font-size: 2rem;
+  width: 212px;
+  height: 50px;
+  border-radius: 1rem;
+  margin-top: 50px;
+}
+
+.loginItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginLink {
+  font-size: 1rem;
+  color: white;
+}

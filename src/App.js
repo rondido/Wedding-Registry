@@ -4,6 +4,7 @@ import Signup from "./Page/Signup";
 import Logo from "../src/comment/Logo";
 import "./Page/style/global.scss";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Main from "./Page/Main";
 
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
         <BrowserRouter>
             <Logo />
             <Routes>
-                <Route path='/' element={<Login />}></Route>
+                <Route path='/' element={<Main />}></Route>
                 <Route path='/signup' element={<Signup />}></Route>
+                <Route path='/login' element={<Login />}></Route>
             </Routes>
         </BrowserRouter>
     </div>
