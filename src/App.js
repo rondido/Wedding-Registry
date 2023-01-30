@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main from "./Page/Main";
 import ProductPage from "./Page/ProductPage";
 import BuyPage from "./Page/BuyPage";
+import Header from "../src/comment/Header";
 
 function App() {
   return (
