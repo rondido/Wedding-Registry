@@ -6,7 +6,7 @@ import "./Page/style/global.scss";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main from "./Page/Main";
 import ProductPage from "./Page/ProductPage";
-
+import Header from "../src/comment/Header";
 function App() {
   return (
     <div className="App">
