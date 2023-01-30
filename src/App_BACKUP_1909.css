@@ -1,12 +1,22 @@
 .App {
   text-align: center;
   height: 100vh;
+<<<<<<< HEAD
+  width: 100vw;
+=======
+  /* width: 100vw; */
+>>>>>>> master
   background-image: url("image/wedding.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
+<<<<<<< HEAD
+  font-family: 'Noto Sans Korean';
+=======
   font-family: "Noto Sans KR";
+
+>>>>>>> master
 }
 
 .App-logo {

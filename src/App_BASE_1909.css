@@ -1,12 +1,5 @@
 .App {
   text-align: center;
-  height: 100vh;
-  background-image: url("image/wedding.png");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: "Noto Sans KR";
 }
 
 .App-logo {

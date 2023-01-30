@@ -1,5 +1,6 @@
 import React from 'react'
-import { GoogleLogin,GoogleOAuthProvider } from '@react-oauth/google'
+import {GoogleLogin, GoogleOAuthProvider} from '@react-oauth/google'
+import {Link} from "react-router-dom";
 import { KAKAO_AUTH_URL } from './Api/OAuth'
 import '../Page/style/global.scss'
 
