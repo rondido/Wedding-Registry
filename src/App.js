@@ -5,6 +5,7 @@ import "./Page/style/global.scss";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main from "./Page/Main";
 import ProductPage from "./Page/ProductPage";
+import BuyPage from "./Page/BuyPage";
 import Header from "../src/comment/Header";
 import ProductLoginPage from "./Page/ProductLoginPage";
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/login" element={<Login />}></Route>
           <Route path="/product" element={<ProductPage />}></Route>
           <Route path="/product/login" element={<ProductLoginPage />}></Route>
+
         </Routes>
       </BrowserRouter>
     </div>
