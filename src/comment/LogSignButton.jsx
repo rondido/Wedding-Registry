@@ -1,22 +1,25 @@
-import React from 'react'
-import {GoogleLogin, GoogleOAuthProvider} from '@react-oauth/google'
-import {Link} from "react-router-dom";
-import { KAKAO_AUTH_URL } from './Api/OAuth'
-import '../Page/style/global.scss'
+import React from 'react';
+import {GoogleLogin, GoogleOAuthProvider} from '@react-oauth/google';
+import { KAKAO_AUTH_URL } from './Api/OAuth';
+import '../Page/style/global.scss';
+
 
 export default function LoginButton() {
   const id="378251890871-rjav6ethapf1cpgmdm7v3jiqq2tociqn.apps.googleusercontent.com"
+  const handleLoginClick = ()=>{
+
+  }
   return (
     <div>
       <div className='container'>
         <div className='Button'>
           <div>
-            <input type="text" placeholder='ID' className='IdInput'/>
+            <input type="text" placeholder='ID' className='IdInput' name="id"/>
           </div>
           <div>
-            <input type="text" placeholder='Password' className='PassInput'/>
+            <input type="password" placeholder='Password' className='PassInput' name="pwd"/>
           </div>
-            <button className='Loginbutton'>
+            <button className='Loginbutton' onClick={handleLoginClick}>
                 로그인
             </button>
             <div>

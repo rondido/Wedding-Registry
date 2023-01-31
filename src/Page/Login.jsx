@@ -6,8 +6,7 @@ import './style/global.scss';
 export default function Login() {
   return (
     <>      
-      <div>
-               
+      <div>               
         <LogSignButton/>
       </div>
     </>

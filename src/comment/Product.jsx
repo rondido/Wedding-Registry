@@ -1,10 +1,11 @@
     import React from 'react'
 import '../Page/style/Product.scss';
 
-
 export default function Product() {
+    
   return (
     <div>
+        
         <div className='sectioncontainer'>                        
                 <div className='item'>
                     <div>상품 조르기</div>

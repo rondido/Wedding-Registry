@@ -7,19 +7,19 @@ import Main from "./Page/Main";
 import ProductPage from "./Page/ProductPage";
 import BuyPage from "./Page/BuyPage";
 import Header from "../src/comment/Header";
-import Logo from "./comment/Logo";
-
+import ProductLoginPage from "./Page/ProductLoginPage";
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Logo />
+        <Header />
         <Routes>
-          <Route path='/' element={<Main />}></Route>
-          <Route path='/signup' element={<Signup />}></Route>
-          <Route path='/login' element={<Login />}></Route>
-          <Route path='/productPage' element={<ProductPage />}></Route>
-          <Route path='/buyPage' element={<BuyPage />}></Route>
+          <Route path="/" element={<Main />}></Route>
+          <Route path="/signup" element={<Signup />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/product" element={<ProductPage />}></Route>
+          <Route path="/product/login" element={<ProductLoginPage />}></Route>
+
         </Routes>
       </BrowserRouter>
     </div>
